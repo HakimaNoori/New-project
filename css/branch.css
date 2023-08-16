@@ -1,0 +1,39 @@
+div.first-item1 {
+    background-image: url("../assets/images/branch/main-2.jpg");
+    background-size: cover;
+}
+
+div.second-item1 {
+    background-size: cover;
+    background-image: url("../assets/images/branch/full-b.jpg");
+}
+
+div.third-item1 {
+    background-image: url("../assets/images/branch/main-2-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* start foods-part */
+
+div.food-part {
+    margin-top: 3%;
+    padding-right: 50px;
+}
+
+
+div.food-part h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-right: 3%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+div.food h5.card-title {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;
+}
