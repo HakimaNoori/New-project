@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,63 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!---- Navigation ----->
     <nav class="navbar navbar-expant-md navbar-light bg-light sticky-top">
         <div class="container-fluid">
             <a href="#" class="navbar-brand"><img src="img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Connect</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
+    <!--- Image Slideer ---->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#lides" data-slide-to="0" class="active"></li>
+            <li data-target="#lides" data-slide-to="1"></li>
+            <li data-target="#lides" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/background.png" alt="">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Bootstrap</h1>
+                    <h3>Complete Website Layout</h3>
+                    <button type="button" class="btn btn-outline btn-lg">VIEW DEMO</button>
+                    <button type="button" class="btn btn-primary btn-lg">Get Starrted</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/background2.png" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="img/background3.png" alt="">
+            </div>
+        </div>
+    </div>
     <script src="js/bootstrap.bundle.js"></script>
 </body>
+
 </html>
