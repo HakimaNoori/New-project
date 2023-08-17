@@ -1,0 +1,29 @@
+/* Some custom styles to beautify this example
+.demo-content {
+  padding: 15px;
+  font-size: 18px;
+  background: #699eed;
+  margin-bottom: 15px;
+}
+
+.demo-content.bg-alt {
+  background: #07e93c;
+}
+
+
+img{
+  max-width: 100%;
+  height: auto;
+} */
+
+.flex-container{
+  display: flex;
+  background-color: dodgerblue;
+}
+
+.flex-container > div {
+  background-color: #1f1f1f;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
